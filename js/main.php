@@ -211,7 +211,7 @@ $(document).ready(function() {
                 delay: 50,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nEncrypte verbindung: open_ssl_aes256(28.3.4.53.2);\n"
+                items: "\nEncrypting Connection: open_ssl_aes256(28.3.4.53.2);\n"
             }, {
                 animation: 'replace',
                 delay: 10,
@@ -228,7 +228,7 @@ $(document).ready(function() {
                 delay: 50,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nVerbindung encrypted."
+                items: "\nConnection Encrypted."
             }, {
                 animation: 'additive',
                 delay: 0,
@@ -240,7 +240,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text white">',
                 render_strategy: 'text-by-char',
-                items: "importiere server daten /usr/ect/kernel/server/config.json"
+                items: "importing data from /usr/ect/kernel/server/config.json"
             }, {
                 delay: 100
             }, {
@@ -265,13 +265,13 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\n‘config.json’ wurde importiert."
+                items: "\n‘config.json’ imported."
             }, {
                 animation: 'additive',
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nLese server config daten.\n"
+                items: "\nServer Configuration set to Read Only.\n"
             }, {
                 animation: 'replace',
                 delay: 3,
@@ -288,7 +288,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nFiles wurden ausgelesen."
+                items: "\nReading Files."
             }, {
                 animation: 'additive',
                 delay: 5,
@@ -311,7 +311,7 @@ $(document).ready(function() {
                 delay: 30,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nDaten wurden erfolgreich importiert."
+                items: "\nData successfully imported."
             }, {
                 animation: 'additive',
                 delay: 0,
@@ -331,7 +331,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nOpen hash wird verarbeitet.\n"
+                items: "\nOpen hash being edited.\n"
             }, {
                 animation: 'replace',
                 delay: 3,
@@ -371,7 +371,7 @@ $(document).ready(function() {
                 delay: 10,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nGems erfolgreich geändert."
+                items: "\nCoins successfully changed."
             }, {
                 animation: 'additive',
                 delay: 5,
@@ -394,7 +394,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nGold erfolgreich geändert."
+                items: "\nToads successfully changed."
             }, {
                 animation: 'additive',
                 delay: 5,
@@ -417,7 +417,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nElixir erfolgreich geändert."
+                items: "\nRally Tickets successfully changed."
             }, {
                 animation: 'additive',
                 delay: 3,
@@ -440,7 +440,7 @@ $(document).ready(function() {
                 delay: 10,
                 placeholder: '<span class="console_text green">',
                 render_strategy: 'text-one-shot',
-                items: "\nConfiguration wird geschlossen."
+                items: "\nConfiguration closing."
             }, {
                 animation: 'additive',
                 delay: 0,
@@ -460,7 +460,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nExportiere Quellverzeichnis.\n"
+                items: "\nExporting Settings.\n"
             }, {
                 animation: 'replace',
                 delay: 3,
@@ -477,13 +477,13 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nExportiere Quellverzeichnis.."
+                items: "\nExporting Settings.."
             }, {
                 animation: 'additive',
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nExportiere Quellverzeichnis...\n"
+                items: "\nExporting Settings...\n"
             }, {
                 animation: 'replace',
                 delay: 4,
@@ -500,13 +500,13 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nVerbindung wird sicher getrennt."
+                items: "\nConnection Established."
             }, {
                 animation: 'additive',
                 delay: 5,
                 placeholder: '<span class="console_text blue">',
                 render_strategy: 'text-one-shot',
-                items: "\nRessourcen werden bestätigt.\n"
+                items: "\nResources are being checked.\n"
             }, {
                 animation: 'replace',
                 delay: 5,
@@ -523,13 +523,13 @@ $(document).ready(function() {
                 delay: 10,
                 placeholder: '<span class="console_text red">',
                 render_strategy: 'text-one-shot',
-                items: "\nUsername ist nicht verifiziert."
+                items: "\nUsername is not Verified."
             }, {
                 animation: 'additive',
                 delay: 10,
                 placeholder: '<span class="console_text yellow">',
                 render_strategy: 'text-one-shot',
-                items: "\nVerifizierung erforderlich."
+                items: "\nVerification Required."
             }, ],
             cursor: {
                 animation: 'replace',
