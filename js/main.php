@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Do you want to add the selected resources below to your Mario Run Account?</p><p><img src='img/coins.png' height='20px'/> " + gems + ".</p><p><img src='img/toads.png' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p>",
+            message: "<p>Do you want to add the selected resources below to your Mario Run Account?</p><p><img src='img/coins.png' height='20px'/> " + gems + ".</p><p><img src='img/toads.png' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Unlock all 6 Worlds (Full Mode)</p>",
             title: "Please confirm",
             buttons: {
                 main: {
