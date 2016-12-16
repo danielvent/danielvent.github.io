@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Möchtest du deinem Account die folgenden Ressourcen gutschreiben?</p><p><img src='img/coins.png' height='20px'/> " + gems + ".</p><p><img src='img/toads.png' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p>",
+            message: "<p>Möchtest du deinem Account die folgenden Ressourcen gutschreiben?</p><p><img src='img/coins.png' height='20px'/> " + gems + ".</p><p><img src='img/toads.png' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Alle 6 Welten Aufschließen (Full Mode)</p>",
             title: "Bitte bestätige deine Auswahl",
             buttons: {
                 main: {
